@@ -1,0 +1,51 @@
+html, body{
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+	background-color: #666;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	flex-grow: 1;
+}
+.nav {
+	width: 25%;
+	height: 300px;
+	background: #ccc;
+	visibility: visible;
+	flex: auto;
+}
+.ul {
+	display: block;
+	list-style-type: none;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+.article {
+	display: inline-grid;
+	text-align: center;
+	width: 75%;
+	background-color: #f1f1f1;
+	color: #000;
+	height: 300px;
+	flex: auto;
+}
+.footer {
+	background-color: #777;
+	padding-left:10px;
+	padding-right:10px;
+	text-align: center;
+	font-size: 200%;
+	color: white;
+}
+#inp {
+	
+}
+#lyrics {
+	
+}
